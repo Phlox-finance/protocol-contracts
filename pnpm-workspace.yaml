@@ -1,0 +1,10 @@
+packages:
+  - v3-core
+  - v3-periphery
+  - UniversalRouter
+  - WETH
+  - FeeSplitter
+  - deployer
+  - dashboard
+patchedDependencies:
+  '@uniswap/lib@4.0.1-alpha': patches/@uniswap__lib@4.0.1-alpha.patch

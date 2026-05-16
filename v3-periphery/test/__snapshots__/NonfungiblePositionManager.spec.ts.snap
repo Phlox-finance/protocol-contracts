@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NonfungiblePositionManager #burn gas 1`] = `56296`;
+
+exports[`NonfungiblePositionManager #collect gas transfers both 1`] = `115733`;
+
+exports[`NonfungiblePositionManager #collect gas transfers token0 only 1`] = `108256`;
+
+exports[`NonfungiblePositionManager #collect gas transfers token1 only 1`] = `108463`;
+
+exports[`NonfungiblePositionManager #createAndInitializePoolIfNecessary gas 1`] = `4559072`;
+
+exports[`NonfungiblePositionManager #decreaseLiquidity gas complete decrease 1`] = `145457`;
+
+exports[`NonfungiblePositionManager #decreaseLiquidity gas partial decrease 1`] = `157355`;
+
+exports[`NonfungiblePositionManager #increaseLiquidity gas 1`] = `180529`;
+
+exports[`NonfungiblePositionManager #mint gas first mint for pool 1`] = `579033`;
+
+exports[`NonfungiblePositionManager #mint gas first mint for pool using eth with non-zero refund 1`] = `588510`;
+
+exports[`NonfungiblePositionManager #mint gas first mint for pool using eth with zero refund 1`] = `581629`;
+
+exports[`NonfungiblePositionManager #mint gas mint for same pool, different ticks 1`] = `411420`;
+
+exports[`NonfungiblePositionManager #mint gas mint on same ticks 1`] = `304239`;
+
+exports[`NonfungiblePositionManager #positions gas 1`] = `20027`;
+
+exports[`NonfungiblePositionManager #transfer gas 1`] = `110673`;
+
+exports[`NonfungiblePositionManager #transfer gas comes from approved 1`] = `108882`;
+
+exports[`NonfungiblePositionManager bytecode size 1`] = `23160`;
+
+exports[`NonfungiblePositionManager multicall exit gas 1`] = `219516`;

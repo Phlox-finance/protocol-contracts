@@ -1,0 +1,10 @@
+node_modules
+lib
+out
+artifacts
+cache
+typechain-types
+broadcast
+openzeppelin-contracts
+permit2
+solmate

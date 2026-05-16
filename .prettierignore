@@ -1,0 +1,14 @@
+node_modules
+artifacts
+cache
+typechain-types
+typechain
+lib
+out
+broadcast
+openzeppelin-contracts
+permit2
+solmate
+.github
+pnpm-lock.yaml
+UniversalRouter/contracts/modules/Permit2Payments.sol

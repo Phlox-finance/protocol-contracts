@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# Hardhat
+artifacts/
+!dashboard/app/api/artifacts/
+cache/
+typechain/
+typechain-types/
+
+# Foundry
+out/
+UniversalRouter/lib/
+
+# Environment
+.env
+.env.*
+
+# Coverage
+coverage/
+coverage.json
+
+# GSD workflow
+.gsd
+.gsd-id
+.bg-shell/
+.mcp.json
+
+# OS
+.DS_Store
+
+# ── GSD baseline (auto-generated) ──
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+!.env.example
+.next/
+dist/
+build/
+__pycache__/
+*.pyc
+.venv/
+venv/
+target/
+vendor/
+*.log
+.cache/
+tmp/

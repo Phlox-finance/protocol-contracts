@@ -1,0 +1,24 @@
+{
+  "name": "@phlox-labs/contracts",
+  "private": true,
+  "pnpm": {
+    "patchedDependencies": {
+      "@uniswap/lib@4.0.1-alpha": "patches/@uniswap__lib@4.0.1-alpha.patch"
+    }
+  },
+  "scripts": {
+    "compile": "pnpm -r run compile",
+    "compile:sol": "pnpm -r run compile:sol",
+    "test": "pnpm -r --filter=!@phlox-labs/universal-router",
+    "clean": "pnpm -r run clean",
+    "format:check": "prettier --check '**/*.sol' '**/*.ts'",
+    "format": "prettier --write '**/*.sol' '**/*.ts'",
+    "lint:sol": "solhint '*/contracts/**/*.sol'"
+  },
+  "devDependencies": {
+    "prettier": "2.8.8",
+    "prettier-plugin-solidity": "1.4.3",
+    "solhint": "3.6.2",
+    "solhint-plugin-prettier": "0.0.5"
+  }
+}

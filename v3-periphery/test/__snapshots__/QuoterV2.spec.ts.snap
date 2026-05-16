@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuoterV2 quotes #quoteExactInput 0 -> 2 -> 1 1`] = `281192`;
+
+exports[`QuoterV2 quotes #quoteExactInput 0 -> 2 cross 0 tick, starting tick initialized 1`] = `124614`;
+
+exports[`QuoterV2 quotes #quoteExactInput 0 -> 2 cross 0 tick, starting tick not initialized 1`] = `101683`;
+
+exports[`QuoterV2 quotes #quoteExactInput 0 -> 2 cross 1 tick 1`] = `145525`;
+
+exports[`QuoterV2 quotes #quoteExactInput 0 -> 2 cross 2 tick 1`] = `183185`;
+
+exports[`QuoterV2 quotes #quoteExactInput 0 -> 2 cross 2 tick where after is initialized 1`] = `145563`;
+
+exports[`QuoterV2 quotes #quoteExactInput 2 -> 0 cross 0 tick, starting tick initialized 1`] = `98348`;
+
+exports[`QuoterV2 quotes #quoteExactInput 2 -> 0 cross 0 tick, starting tick not initialized 1`] = `94427`;
+
+exports[`QuoterV2 quotes #quoteExactInput 2 -> 0 cross 2 1`] = `175925`;
+
+exports[`QuoterV2 quotes #quoteExactInput 2 -> 0 cross 2 where tick after is initialized 1`] = `175933`;
+
+exports[`QuoterV2 quotes #quoteExactInput 2 -> 1 1`] = `98011`;
+
+exports[`QuoterV2 quotes #quoteExactInputSingle 0 -> 2 1`] = `183167`;
+
+exports[`QuoterV2 quotes #quoteExactInputSingle 2 -> 0 1`] = `175897`;
+
+exports[`QuoterV2 quotes #quoteExactOutput 0 -> 2 -> 1 1`] = `280792`;
+
+exports[`QuoterV2 quotes #quoteExactOutput 0 -> 2 cross 0 tick starting tick initialized 1`] = `124133`;
+
+exports[`QuoterV2 quotes #quoteExactOutput 0 -> 2 cross 0 tick starting tick not initialized 1`] = `101222`;
+
+exports[`QuoterV2 quotes #quoteExactOutput 0 -> 2 cross 1 tick 1`] = `144775`;
+
+exports[`QuoterV2 quotes #quoteExactOutput 0 -> 2 cross 2 tick 1`] = `182191`;
+
+exports[`QuoterV2 quotes #quoteExactOutput 0 -> 2 cross 2 where tick after is initialized 1`] = `144813`;
+
+exports[`QuoterV2 quotes #quoteExactOutput 2 -> 0 cross 1 tick 1`] = `138624`;
+
+exports[`QuoterV2 quotes #quoteExactOutput 2 -> 0 cross 2 ticks 1`] = `176031`;
+
+exports[`QuoterV2 quotes #quoteExactOutput 2 -> 0 cross 2 where tick after is initialized 1`] = `176025`;
+
+exports[`QuoterV2 quotes #quoteExactOutput 2 -> 1 1`] = `98588`;
+
+exports[`QuoterV2 quotes #quoteExactOutputSingle 0 -> 1 1`] = `105918`;
+
+exports[`QuoterV2 quotes #quoteExactOutputSingle 1 -> 0 1`] = `99193`;

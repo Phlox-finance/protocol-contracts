@@ -1,0 +1,20 @@
+diff --git a/contracts/libraries/SafeERC20Namer.sol b/contracts/libraries/SafeERC20Namer.sol
+index 90fed39cce08d6a24dba99fc1015b03773fed7ed..fe2fb7d3da17e457cce857defe701e1a077ca053 100644
+--- a/contracts/libraries/SafeERC20Namer.sol
++++ b/contracts/libraries/SafeERC20Namer.sol
+@@ -43,13 +43,13 @@ library SafeERC20Namer {
+ 
+     // uses a heuristic to produce a token name from the address
+     // the heuristic returns the full hex of the address string in upper case
+-    function addressToName(address token) private pure returns (string memory) {
++    function addressToName(address token) internal pure returns (string memory) {
+         return AddressStringUtil.toAsciiString(token, 40);
+     }
+ 
+     // uses a heuristic to produce a token symbol from the address
+     // the heuristic returns the first 6 hex of the address string in upper case
+-    function addressToSymbol(address token) private pure returns (string memory) {
++    function addressToSymbol(address token) internal pure returns (string memory) {
+         return AddressStringUtil.toAsciiString(token, 6);
+     }
+ 
